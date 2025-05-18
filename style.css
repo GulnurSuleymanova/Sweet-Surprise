@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+body {
+  background-color: #fff0e6;
+  font-family: 'Fredoka', sans-serif;
+  margin: 0;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#answer {
+  background-image: url('/img/haribo.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  max-width: 400px;
+  min-height: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(77, 103, 165);
+  box-shadow: rgba(230, 123, 182, 0.56) 0px 22px 70px 4px;
+}
+
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: orange;
+  font-family: 'Fredoka', sans-serif;
+}
+
+button {
+  align-self: center;
+  border: none;
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff6a00, #ffcc00);
+  transform: scale(1.1);
+}
