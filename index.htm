@@ -10,21 +10,22 @@
 </head>
 
 <body>
-        <div id="joy" hidden>
-            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmg2ZmNldWJ6bzEzeTF2NG04aHZzOWxuczR5cnM5emtveTFjcDEyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/y6G5Ba8KeylIWIPqBJ/giphy.gif"
-                alt="Haribo GIF">
-            <h1>with the Haribo bears 🍬</h1>
+    <div id="joy" hidden>
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmg2ZmNldWJ6bzEzeTF2NG04aHZzOWxuczR5cnM5emtveTFjcDEyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/y6G5Ba8KeylIWIPqBJ/giphy.gif"
+            alt="Haribo GIF">
+        <h1>with the Haribo bears 🍬</h1>
 
-        </div>
-        <div id="answer">
-            <h2>Do you know how to bring me joy?</h2>
-            <button class="button" onclick="clik()">Click for instant joy</button>
-        </div>
- 
+    </div>
+    <div id="answer">
+        <h2>Do you know how to bring me joy?</h2>
+        <button class="button" onclick="clik()">Click for instant joy</button>
+    </div>
+
     <script>
+        let answer = document.getElementById('answer')
+        let joy = document.getElementById('joy')
         function clik() {
-            let answer = document.getElementById('answer')
-            let joy = document.getElementById('joy')
+
             joy.hidden = false
             answer.style.display = 'none'
         }
